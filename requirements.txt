@@ -1,0 +1,28 @@
+# Production RAG System — Python 3.11+
+
+# LangChain
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-ollama>=0.2.0
+langchain-pinecone>=0.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-classic>=1.0.0
+langgraph>=0.2.0
+
+# APIs
+openai>=1.40.0
+pinecone-client>=5.0.0
+requests>=2.32.0
+
+# Retrieval
+rank-bm25>=0.2.2
+
+# Optional local documents
+pypdf>=4.0.0
+
+# Config
+python-dotenv>=1.0.0
+
+# UI
+streamlit>=1.32.0
